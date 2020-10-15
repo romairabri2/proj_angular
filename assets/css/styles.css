@@ -117,9 +117,9 @@ Copy text
 }
 
 #slider h1{
-    margin-top:0.2px;
-    padding:0px;
-    padding-top:130px;
+    margin-top: 0.2px;
+    padding: 0px;
+    padding-top: 130px;
     text-align:center;
 }
 
@@ -340,32 +340,70 @@ textarea{
 }
 
 /*RESPONSIVE*/
-  
-  /* Desde la anchura 0px hasta la anchura 1488px de pantalla */
-  @media (max-width: 1256px) {
-    /*Se ejecutaran estos estilos*/  
+
+@media (max-width: 1311px) {
+    #logo{
+        /*width: 265px;*/
+        width: auto;        
+    }
     .center{
         width: 85%;
     }
-   
-  }
-
-  @media (max-width: 1108px) {
-    /*Se ejecutaran estos estilos*/  
+    
+}
+  
+/* Desde la anchura 0px hasta la anchura 1488px de pantalla */
+@media (max-width: 1157px) { 
     .center{
-        width: 95%;
+        /*width: 95%;*/
+        width: auto;
     }   
     
     #menu ul{
         width: auto;
     }
-  }
+}
+/*
+@media (max-width: 1108px) {   
+    .center{
+        width: 95%;
+    }      
+}
 
-  @media (max-width: 886px) {
-    /*Se ejecutaran estos estilos*/  
+@media (max-width: 1035px) {   
+    .center{
+        width: 96%;
+    }   
+}
+
+@media (max-width: 1024px) {   
+    .center{
+        width: 97%;
+    }   
+}
+
+@media (max-width: 1014px) {   
+    .center{
+        width: 98%;
+    }   
+}
+
+@media (max-width: 1003px) {   
+    .center{
+        width: 99%;
+    }   
+}
+
+@media (max-width: 993px) {   
+    .center{
+        width: 100%;
+    }   
+}*/
+
+@media (max-width: 983px) { 
     #logo{
         float: none;
-        width: 240px;
+        width: 250px;
         margin: 0px auto;
         margin-top: 20px;
     }
@@ -402,9 +440,9 @@ textarea{
     .mid-form{
         width: 70%;
     }
-  }
+}
 
-  @media (max-width: 483px) {
+@media (max-width: 483px) {
     #header{
         min-height: 130px;
         overflow: hidden;
@@ -440,7 +478,7 @@ textarea{
     #slider.slider-small h1{
         padding-top: 35px;
     }
-  }
+}
 
 
 
