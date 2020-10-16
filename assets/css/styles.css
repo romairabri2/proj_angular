@@ -340,7 +340,6 @@ textarea{
 }
 
 /*RESPONSIVE*/
-
 @media (max-width: 1311px) {
     #logo{
         /*width: 265px;*/
@@ -348,20 +347,14 @@ textarea{
     }
     .center{
         width: 85%;
-    }
-    
+    }    
 }
   
 /* Desde la anchura 0px hasta la anchura 1488px de pantalla */
 @media (max-width: 1157px) { 
-    .center{
-        /*width: 95%;*/
+    #menu, #menu ul{
         width: auto;
-    }   
-    
-    #menu ul{
-        width: auto;
-    }
+    } 
 }
 /*
 @media (max-width: 1108px) {   
@@ -374,36 +367,12 @@ textarea{
     .center{
         width: 96%;
     }   
-}
-
-@media (max-width: 1024px) {   
-    .center{
-        width: 97%;
-    }   
-}
-
-@media (max-width: 1014px) {   
-    .center{
-        width: 98%;
-    }   
-}
-
-@media (max-width: 1003px) {   
-    .center{
-        width: 99%;
-    }   
-}
-
-@media (max-width: 993px) {   
-    .center{
-        width: 100%;
-    }   
 }*/
 
-@media (max-width: 983px) { 
+@media (max-width: 876px) { 
     #logo{
         float: none;
-        width: 250px;
+        width: 265px;
         margin: 0px auto;
         margin-top: 20px;
     }
@@ -416,7 +385,6 @@ textarea{
         margin: 0px;
         padding: 0px;
         line-height: 43px;
-    
     }
 
     #content{
@@ -433,8 +401,7 @@ textarea{
 
     #slider h1{
         padding-top: 115px;
-        font-size: 23px;
-        
+        font-size: 23px;     
     }
 
     .mid-form{
@@ -442,7 +409,7 @@ textarea{
     }
 }
 
-@media (max-width: 483px) {
+@media (max-width: 540px) {
     #header{
         min-height: 130px;
         overflow: hidden;
